@@ -8,8 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 
 /**************************************
- * Name:
- * Date:
+ * Name:        Bonnie Hutchison
+ * Date:        07/29/2024
  * Description: A program using user-created method
  *              for the math function Square and Cube
  * Assistance:
@@ -17,9 +17,9 @@ using System.Windows.Forms;
 
 namespace Exponents
 {
-    public partial class Form1 : Form
+    public partial class Exponents : Form
     {
-        public Form1()
+        public Exponents()
         {
             InitializeComponent();
         }
