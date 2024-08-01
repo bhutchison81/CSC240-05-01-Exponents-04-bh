@@ -27,19 +27,24 @@ namespace Exponents
         private void xGoButton_Click(object sender, EventArgs e)
         {
             // STORAGE
+            int num;
 
             // INPUT
+            num = Convert.ToInt32(UxInputTextBox.Text);
 
             // PROCESS
             /* calculate the square of the number and add it to the output - 
              * do this with a method call that allows you to pass the number
              * and then receive the answer */
+             int squareAnswer = Square(num);
+            UxOutputLabel.Text = "Square is " + squareAnswer.ToString();
 
             /* calculate the cube of the number and add it to the output - 
              * do this by creating a methd as in the squaring example above */
 
             // OUTPUT
             // set the output to visible
+            UxOutputLabel.Visible = true;
 
             // turn the Go button off
         }
@@ -61,5 +66,9 @@ namespace Exponents
             // turn the Go button back on
         }
 
+        private void Exponents_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
