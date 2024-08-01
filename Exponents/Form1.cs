@@ -52,12 +52,13 @@ namespace Exponents
         public int Square(int num)
         {
             // we will create this code in class
+            return num * num;
         }
 
-        public int Cube(int num)
-        {
+       // public int Cube(int num)
+        //{
             // we will create this code in class
-        }
+        //}
 
         private void xResetButton_Click(object sender, EventArgs e)
         {
